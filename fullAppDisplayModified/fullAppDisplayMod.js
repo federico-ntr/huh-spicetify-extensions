@@ -357,6 +357,12 @@ body.video-full-screen.video-full-screen--hide-ui {
     max-width: 400px;
     align-items: center;
     flex-direction: column;
+    @media only screen 
+        and (min-device-width: 834px) 
+        and (max-device-width: 1112px) {
+            min-width: 300px;
+            max-width: 300px;
+    }
 }
 #fad-status.active {
     margin: 20px auto 0;
